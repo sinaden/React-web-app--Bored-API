@@ -11,8 +11,6 @@ function App() {
   const url = 'https://www.boredapi.com/api/activity';
 
   function restart(){
-    console.log("hello");
-    //window.location.reload(false);
     setStuff([]);
     setLoading(true);
     fetchData();
